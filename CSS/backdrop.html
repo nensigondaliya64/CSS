@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            background-color: black;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+        }
+
+        fieldset {
+            color: white;
+            height: 500px;
+            width: 400px;
+            font-size: 20px;
+            backdrop-filter: blur(4px);
+            background-color: rgba(147, 143, 143, 0.267);
+        }
+
+        .log {
+            font-weight: bold;
+            font-size: 35px;
+            margin-top: 50px;
+        }
+
+        label {
+            margin-right: 230px;
+            font-weight: bold;
+        }
+
+        input {
+            height: 45px;
+            width: 80%;
+            background-color: rgba(147, 143, 143, 0.217);
+            margin-top: 10px;
+
+        }
+
+        button {
+            height: 55px;
+            width: 80%;
+            border-radius: 7px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        .s {
+            display: flex;
+            gap: 22px;
+            justify-content: center;
+        }
+
+        .g {
+
+            height: 40px;
+            width: 37%;
+            background-color: rgba(147, 143, 143, 0.217);
+            padding: 7px;
+            margin-top: 30px;
+        }
+
+        .f {
+
+            height: 40px;
+            width: 37%;
+            background-color: rgba(147, 143, 143, 0.217);
+            padding: 7px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+
+        }
+
+      
+
+        .box {
+            position: absolute;
+        }
+
+        .circle1 {
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            background-color: rgb(0, 110, 255);
+            left: 470px;
+            top: -15px;
+
+        }
+
+        .circle2 {
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            background-color: rgb(255, 102, 0);
+            right: 520px;
+            bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="box">
+            <fieldset>
+                <div class="log">Login Here</div><br>
+                <label for="">Username</label><br>
+                <input type="text" placeholder="Email or Phone"><br><br>
+                <label for="">Password</label><br>
+                <input type="Password" placeholder="Password"><br><br>
+                <button>Login</button>
+                <div class="s">
+                    <div class="g">
+                      Google
+                        <i class="fa-solid fa-g" style="color: #f7f7f8;"></i>
+                    </div>
+                    <div class="f">
+                        Facebook
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+
+</html>

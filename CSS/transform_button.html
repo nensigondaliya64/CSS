@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 40vh;
+            margin-left: 500px;
+
+            
+            gap: 50px;
+        }
+
+        .b1 {
+            border: 4px solid rgb(183, 136, 238);
+            height: 50px;
+            width: 12%;
+            font-size: 30px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            background: linear-gradient(rgba(236, 123, 142, 0.929),  rgb(156, 156, 219));
+            transition: all;
+        }
+
+        .b1:hover {
+            transform: skew(-20deg);
+            background: linear-gradient(rgb(211, 119, 162), rgba(152, 152, 243, 0.605));
+
+        }
+
+        .b2 {
+            border: 4px solid rgb(183, 136, 238);
+            height: 50px;
+            width: 12%;
+            font-size: 30px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            background: linear-gradient( rgba(106, 225, 106, 0.916),  rgb(245, 183, 69));
+            transition: all;
+        }
+
+        .b2:hover {
+            transform: rotate(5deg);
+            background: linear-gradient(rgb(103, 248, 253), rgb(245, 227, 69));
+
+        }
+
+        .b3 {
+            border: 4px solid rgb(247, 199, 69);
+            height: 50px;
+            width: 12%;
+            font-size: 30px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            background: linear-gradient( rgb(188, 143, 240),  rgb(118, 253, 118));
+            transition: all 1s;
+        }
+
+        .b3:hover {
+            transform: scale(1.2);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="b1">HOVER</div>
+        <div class="b2">HOVER</div>
+        <div class="b3">HOVER</div>
+
+    </div>
+</body>
+
+</html>
